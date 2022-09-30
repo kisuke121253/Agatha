@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.background {
+    background-image: url(../img/teste.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+nav h2 {
+    color: darkviolet;
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+span {
+    color: beige;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 25px;
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: darkviolet;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: azure;
+    transform: scale(1.2);
+}
+
+.btn {
+    background-color: azure;
+    color: darkviolet;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+.Main {
+    position: absolute;
+    top: 35%;
+    left: 8%;
+    transform: translateY(-50);
+}
+
+h4 {
+    color: darkviolet;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+h1 {
+    color: darkviolet;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+h3 {
+    color: darkviolet;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.Container-btn form {
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.Container-btn form input:first-child {
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border-radius: 30px;
+    outline: none;
+}
+
+.Container-btn form input:last-child {
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: azure;
+    color: darkviolet;
+    box-shadow: 0px 0px 15px grey;
+    right: 6px;
+    top: 6px;
+}
+
+.middle {
+    background-image: url(../img/☆Yofukashi\ no\ Uta☆.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 130vh;
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-text {
+    text-align: center;
+    font-size: 46px;
+    color: blueviolet;
+    text-align: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 31.5%;
+    padding-right: 30%;
+    border: 1px solid greenyellow;
+}
+
+.middle1 {
+    margin-left: 5%;
+    flex: 25%;
+    /* border: 1px solid greenyellow;*/
+    border: 8px solid brown;
+    border-radius: 8px;
+}
+
+
+.middle2 {
+    margin-right: 5%;
+    flex: 25%;
+    border: 1px solid greenyellow;
+}
+
+.mh3 {
+    margin-left: 5px;
+    font-size: 23px;
+    color: white;
+    text-align: center;
+}
+
+.mdl {
+    background-color: black;
+}
+
+.cacatua {
+    /* text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    color: blueviolet;*/
+    text-align: center;
+    font-size: 40px;
+    color: blueviolet;
+    text-align: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    padding-left: 41.5%;
+    padding-right: 40%;
+
+}
+
+.saturno {
+    background-color: blueviolet;
+    height: 100vh;
+    width: 100%;
+    border: 2px solid brown;
+    display: inline-block;
+}
+
+.saturno2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+
+}
+
+.alemao {
+    display: inline-block;
+    width: 13%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid violet;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 5%;
+}
+
+.alemao:hover {
+    background: yellow;
+    padding: 20px;
+    width: 20%;
+    height: 40vh;
+    color: aquamarine;
+}
+
+.alemao:hover img {
+    display: none;
+
+}
+
+.alemao:hover .alemao-card {
+    display: none;
+}
+
+.alemao:hover .alemao-oculto {
+    display: block;
+}
+
+.alemao-oculto {
+    display: none;
+}
+
+footer {
+    background-color: bisque;
+    border: 6px solid blue;
+    border-radius: 10px;
+    width: 100%;
+    height: 60vh;
+}
+
+.macacada {
+    display: grid;
+    grid-template-columns: repeat(2, 80fr);
+}
